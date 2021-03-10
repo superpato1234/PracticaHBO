@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+section {
+  background-image: url("https://l3edvimpbbp03.secure.footprint.net/prod?w=1920&h=1080&u=https://d3hz53nx0dymf8.cloudfront.net/ProductShots/20191002-1/section_1_LATAM.jpg");
+  background-size: cover;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 0px 50px;
+  font-size: 20px;
+  align-items: center;
+}
+.navbar div {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-weight: 500;
+}
+.navbar img {
+  width: 10%;
+  height: 10%;
+}
+.navbar span {
+  margin-right: 20px;
+}
+.navbar button {
+  font-size: 20px;
+  background-color: rgba(136, 136, 136, 0.425);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: 0px;
+  font-weight: 500;
+}
+.cover {
+  padding: 100px;
+}
+.cover h2 {
+  font-weight: 900;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.cover p {
+  font-size: 20px;
+}
+.prueba {
+  background-color: rgb(50, 104, 255);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+  width: 400px;
+  height: 70px;
+  display: block;
+  margin: 60px 0px 0px 0px;
+}
+.proveedor {
+  background-color: rgba(136, 136, 136, 0.425);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  height: 100px;
+  border-radius: 5px;
+  border: 0px;
+  width: 400px;
+  height: 70px;
+  display: block;
+  margin: 20px 0px;
+  padding: 0px 50px;
+}
